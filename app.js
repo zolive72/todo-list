@@ -41,7 +41,7 @@ const addTodo = event => {
       `<li id="${todoId}" class="list-group-item d-flex justify-content-between align-items-center">
         <span>${inputValue}</span>
         <i class="far fa-trash-alt delete" data-id ="${todoId}"></i>
-    </li>`;
+      </li>`;
   }
 
   event.target.reset();
