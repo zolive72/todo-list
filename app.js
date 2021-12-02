@@ -12,7 +12,7 @@ const filterTodos = (inputValue, boolean) => {
       const todoInLowerCase = stringInLowerCase(todo.textContent);
 
       return todoInLowerCase.includes(inputValue) === boolean;
-    });
+  });
 };
 
 const showOrHideTudo = (todos, classToAdd) => {
